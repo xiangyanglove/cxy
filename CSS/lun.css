@@ -1,0 +1,71 @@
+.box{
+    width: 600px;
+    height: 470px;
+    position: absolute;
+    background-color: #269abc;
+    margin-top: 170px;
+    margin-left: 10px;
+}
+.zuo-box{
+    width: 600px;
+    height: 470px;
+    position: relative;
+}
+.left-button{
+    width: 30px;
+    height: 60px;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    left: 0;
+    top: 200px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 100;
+}
+.left-button:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.right-button:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.right-button{
+    width: 30px;
+    height: 60px;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    right: 0;
+    top: 200px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 100;
+}
+.over-flow{
+    width: 600px;
+    height: 470px;
+    overflow: hidden;
+}
+.slide{
+    width: 3600px;
+    height: 470px;
+}
+.lun{
+    position: relative;
+    width: 600px;
+    height: 470px;
+    float: left;
+    margin: 0;
+}
+.lun img{
+    width: 600px;
+    height: 470px;
+}
+.dian{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 30px;
+    text-align: center;
+}

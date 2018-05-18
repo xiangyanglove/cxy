@@ -1,0 +1,246 @@
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.fashion{
+    width: 1300px;height: 450px;margin-left: 205px;margin-top: 40px;
+}
+.femail{
+    width: 1300px;height: 450px;margin-left: 205px;margin-top: 20px;
+}
+.sport{
+    width: 390px;
+    height: 450px;
+    background: white;
+    float: left;
+    position: relative;
+}
+.sport h3{
+    font-family: "Microsoft YaHei UI";
+    height: 30px;
+    margin-left: 20px;
+}
+.sport h3 span{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: gray;
+}
+.sport{
+    width: 390px;
+    height: 450px;
+    background: white;
+    float: left;
+    position: relative;
+}
+.meili{
+    width: 390px;
+    height: 450px;
+    margin-left: 10px;
+    background: white;
+    float: left;
+    position: relative;
+}
+.meili h3{
+    font-family: "Microsoft YaHei UI";
+    height: 30px;
+    margin-left: 20px;
+}
+.meili h3 span{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: gray;
+}
+.sport ul{
+    margin-left: 20px;
+}
+.sport li{
+    position: relative;
+    margin-top: 10px;
+}
+.daren{
+    width: 350px;
+    height: 180px;
+    background-color: rgba(255,255,255,0.26);
+}
+.fashionmask{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h2{
+    text-align: center;
+    width: 200px;
+    margin-left: 700px;
+}
+.meili ul{
+    margin-left: 20px;
+}
+.meili li{
+    position: relative;
+    float: left;
+}
+.zhuang{
+    width: 170px;
+    height: 180px;
+    background-color: rgba(255,255,255,0.26);
+}
+.singletu{
+    margin-top: -35px;
+    margin-left: -40px;
+    width: 340px;
+    height: 420px;
+    background-color: rgba(255,255,255,0.26);
+}
+.single{
+    width: 340px;
+    height: 420px;
+    margin-top: 30px;
+    border: 5px solid black;
+    float: left;
+    position: relative;
+    margin-left: 60px;
+}
+.single img{
+    margin-top: -35px;
+    margin-left: -40px;
+}
+.singleone{
+    width: 340px;
+    height: 420px;
+    margin-top: 40px;
+    border: 5px solid black;
+    float: left;
+    position: relative;
+}
+.singleone img{
+    margin-top: -35px;
+    margin-left: 30px;
+}
+.singleone ul li{
+    position: relative;
+}
+.singleonemask{
+    position: absolute;
+    top: -35px;
+    left: 30px;
+    width: 340px;
+    height: 420px;
+    background-color: rgba(255,255,255,0.26);
+}
+.femailtwo{
+    margin-top: 10px;
+    width: 390px;
+    height: 450px;
+    float: left;
+    margin-left: 60px;
+}
+.femailthree{
+    margin-top: 10px;
+    width: 390px;
+    height: 450px;
+    float: left;
+    background-color: white;
+}
+.femailtwo li{
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    float: left;
+    width: 190px;
+    height: 220px;
+    background-color: white;
+}
+.femailthree li{
+    position: relative;
+    float: left;
+    margin-top: 20px;
+}
+.femailthree li img{
+    width: 120px;
+}
+.femailtwomask{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 190px;
+    height: 160px;
+    background-color: rgba(255,255,255,0.26);
+}
+.femailtwo li img{
+    width: 120px;
+}
+.femailtwo li p{
+    font-family: "Microsoft YaHei UI";
+    margin-top: 10px;
+    width: 150px;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.femailtwo li span{
+    color:rgba(232,54,50,0.96);
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+}
+.femailthreemask{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255,255,255,0.26);
+}
+.zhibo{
+    width: 1200px;
+    height: 440px;
+    margin-left: 205px;
+}
+.zhibocontent{
+    float: left;
+    margin-left: 10px;
+    width: 390px;
+    height: 425px;
+    background-color: white;
+}
+.contentone{
+    padding: 0;
+}
+.contentone li{
+    position: relative;
+    float: left;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.zhibomask{
+    top:0;
+    left: 0;
+    width: 170px;
+    height: 190px;
+    position: absolute;
+    background-color: rgba(152,152,152,0.26);
+}
+.doubletu{
+    width: 340px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.26);
+    position: absolute;
+    top: -35px;
+    left: -40px;
+}
+.xinpin{
+    width: 350px;
+    height: 370px;
+    background-color: rgba(255,255,255,0.26);
+    position: absolute;
+}
+.pingdao{
+    width: 170px;
+    height: 180px;
+    background-color: rgba(255,255,255,0.26);
+    position: absolute;
+    top: 0;
+    left: 0;
+}

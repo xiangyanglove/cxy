@@ -1,0 +1,145 @@
+.con{
+    float: left;
+    height: 270px;
+    width: 190px;
+    background-color: rgba(232,54,50,0.96);
+}
+#m{
+    font-family: "Microsoft YaHei UI";
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#s{
+    margin-left: 23px;
+    margin-top: 10px;
+}
+.s {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    line-height: 2.5vw;
+    background-color: rgba(78,78,79,0.96);
+    display: inline-block;
+}
+.miao
+{
+    width:1200px;
+    height: 270px;
+    margin-left: 200px;
+    background-color: white;
+}
+/*抢购轮播图*/
+.zhong{
+    width: 810px;
+    height: 270px;
+    position: relative;
+    float: left;
+}
+.left-click{
+    width: 25px;
+    height: 50px;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    left: 0;
+    top: 110px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 100;
+}
+.right-click{
+    width: 25px;
+    height: 50px;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    right: 0;
+    top: 110px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 100;
+}
+.left-click:hover{
+    background: rgba(0,0,0,0.3);
+}
+.right-click:hover{
+    background: rgba(0,0,0,0.3);
+}
+.over-flows{
+    width: 810px;
+    height: 270px;
+    overflow: hidden;
+}
+.slides{
+    width: 4860px;
+    height: 300px;
+}
+.flash{
+    position: relative;
+    width: 810px;
+    height: 270px;
+    float: left;
+    margin: 0;
+}
+.flash .goods{
+    height: 270px;
+    background-color: white;
+}
+.goods img{
+    margin-top: 20px;
+    width: 150px;
+}
+.goods{
+    padding: 0;
+}
+.goods li{
+    float: left;
+    list-style: none;
+    width: 202.5px;
+    height: 270px;
+    text-align: center;
+    border-right: 1px solid lightgray;
+}
+.goods p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 12px;
+}
+.goods p:hover{
+    color: rgba(232,54,50,0.96);
+}
+.old{
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    background-color: white;
+    float: left;
+    color: gray;
+    text-decoration: line-through;
+    border: 1px solid rgba(232,54,50,0.96);
+}
+.new{
+    margin-left: 15px;
+    background-color: rgba(232,54,50,0.96);
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    color: white;
+}
+/*抢最右边轮播图*/
+*{margin-left: 0;padding: 0; }
+.banner ul{list-style: none;}
+.banner{left: 10px;top: 5px;margin-left: 10px;width: 180px;height: 260px;position: relative;overflow: hidden;}
+.img{position: absolute;top: 0;left: 0}
+.img li{float: left;}
+.num{position: absolute;bottom: 10px;width: 100%;text-align: center;font-size: 0;}
+.num li{width: 10px;height: 10px;background:rgba(0,0,0,0.5);display: block;border-radius: 100%;display: inline-block;margin: 0 5px;cursor: pointer;}
+.btn span{display: block;width: 50px;height: 100px;background: rgba(0,0,0,0.6);color: #fff;font-size: 40px;line-height: 100px;text-align: center;cursor:pointer;}
+.num .active{background-color: #fff;}

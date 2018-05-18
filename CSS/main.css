@@ -1,0 +1,275 @@
+.main{
+    width: 1300px;height: 450px;margin-left: 205px;margin-top: 20px;
+}
+.paihang{
+    width: 390px;
+    height: 450px;
+    background: white;
+    float: left;
+}
+.paihang h3{
+    font-family: "Microsoft YaHei UI";
+    height: 30px;
+    margin-left: 20px;
+}
+.paihang h3 span{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: gray;
+}
+.name li{
+    float: left;
+    list-style: none;
+    width: 70px;
+    margin-left: 6px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    position: relative;
+}
+.name ul{
+    padding: 0;
+}
+.name{
+    color: #666;
+    font-size: 13px;
+    font-family: "Microsoft YaHei UI";
+    background-color: rgba(240,243,239,0.96);
+    width: 390px;
+    height: 34px;
+}
+.hezi{
+    clear: both;
+}
+.hezi > ul > li > div{
+    float: left;
+}
+.hezi .tupian{
+    position: relative;
+    margin-right: 10px;
+}
+.hezi li{
+    clear: both;
+    list-style: none;
+}
+.hezi .paiming .tupian img{
+    margin-top: 10px;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.hezi ul{
+    padding: 0;
+    list-style-type: none;
+}
+.paiming .text{
+    margin-left: 40px;
+    font-size: 12px;
+    padding-top: 38px;
+    font-family: "Microsoft YaHei UI";
+    color: #333;
+    float: left;
+    width: 225px;
+    height: 72px;
+}
+.paiming ul{
+    padding: 0;
+    border-bottom: 1px solid lightgray;
+}
+.paiming ul li{
+    list-style: none;
+    width: 350px;
+    margin-left: 20px;
+    height: 107px;
+}
+.selected{
+    color: rgba(232,54,50,0.96);
+}
+.none{
+    display: none;
+}
+.zuo-hezi{
+    width: 390px;
+    height: 355px;
+    position: relative;
+}
+.over{
+    width: 390px;
+    height: 355px;
+    overflow: hidden;
+}
+.gun{
+    width: 790px;
+    height: 355px;
+}
+.paiming{
+    position: relative;
+    width: 390px;
+    height: 355px;
+    float: left;
+    margin: 0;
+}
+.paiming img{
+    width: 390px;
+    height: 355px;
+}
+.yuan{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 175px;
+    text-align: center;
+}
+.paiming span{
+    font-size: 32px;font-family: 'impact';
+    position: absolute;
+    margin: -5px -25px;
+}
+.text:hover{
+    color: rgba(232,54,50,0.96);
+}
+.huimai{
+    position: relative;
+    float: left;
+    width: 390px;
+    height: 450px;
+    background: white;
+    margin-left: 10px;
+}
+.huimai h3{
+    font-family: "Microsoft YaHei UI";
+    height: 30px;
+    margin-left: 20px;
+}
+.huimai h3 span{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: gray;
+}
+.quan{
+    float: left;
+    width: 390px;
+    height: 450px;
+    background: white;
+    margin-left: 10px;
+}
+.quan h3{
+    font-family: "Microsoft YaHei UI";
+    height: 30px;
+    margin-left: 20px;
+}
+.quan h3 span{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: gray;
+}
+*{margin: 0;padding:0; }
+.bannerone ul{list-style: none;}
+.bannerone{width: 350px;height: 380px;margin: auto;position: relative;overflow: hidden;}
+.imgone{position: absolute;top: 0;left: 0}
+.imgone img{
+    width: 350px;
+    height: 355px;
+}
+.imgone li{float: left;}
+.numone{position: absolute;bottom: -10px;width: 100%;text-align: center;font-size: 0;}
+.numone li{width: 12px;height: 12px;background:white;border: 2px solid gray;display: block;border-radius: 100%;display: inline-block;margin: 0 5px;cursor: pointer;}
+.btnone .prevone:hover{background-color: gray}
+.btnone .nextone:hover{background-color: gray}
+.btnone span{display: block;background-color: lightgray;width: 20px;height: 40px;color: #fff;font-size: 20px;line-height: 40px;text-align: center;cursor:pointer;}
+.btnone .prevone{position: absolute;left: 0;top: 50%;margin-top: -30px;}
+.btnone .nextone{position: absolute;right: 0;top: 50%;margin-top: -30px;}
+.numone .active{background-color: gray;}
+.look{
+    position: absolute;
+    bottom: 50px;
+    left: 135px;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: "Microsoft YaHei UI";
+}
+/*领券中心*/
+.lingquan{
+    width: 390px;
+    height: 355px;
+    position: relative;
+}
+.flow{
+    width: 390px;
+    height: 355px;
+    overflow: hidden;
+}
+.change{
+    width: 780px;
+    height: 355px;
+}
+.quanlist{
+    position: relative;
+    width: 390px;
+    height: 355px;
+    float: left;
+    margin: 0;
+}
+.quanlist img{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.quantext{
+    width: 180px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.quanlist ul{
+    padding: 0;
+    margin-left: 20px;
+}
+.quanlist ul li{
+    list-style: none;
+    width: 350px;height: 118px;
+    padding-top: 9px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.quanlist .quantext{
+    float: left;
+}
+.quanclick{
+    margin-top: 9px;
+    text-align: center;
+}
+.quantu{
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    float: left;
+}
+.quantext h3{
+    text-align: left;
+    margin-left: 0;
+    font-size: 34px;
+    line-height: 34px;
+    font-family: "impact";
+    color:rgba(232,54,50,0.96) ;
+}
+.more{
+    width: 15px;height: 100px;float: left;margin-right: 20px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 13px;
+}
+.quantext span{
+    font-family: "Microsoft YaHei UI";
+}
+.quanmask{
+    width: 120px;height: 118px;background-color:rgba(255,255,255,0.26);position: absolute;
+}

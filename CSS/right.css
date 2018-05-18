@@ -1,0 +1,39 @@
+html,body{ height:100%;}
+body,div{ margin:0; padding:0;}
+.line{ background:gray; position:fixed; width:6px; top:0; bottom:0;right: 0; overflow:auto;float: left}
+.type img{
+    float: right;
+    width: 60%;
+    margin-right: 20%;
+}
+.type{
+    position: fixed;
+    right: 0.3%;
+    top: 400px;
+}
+.type ul{
+    padding: 0;
+}
+.type li{
+    padding:2px;
+    background-color: gray;
+    list-style: none;
+    height: 28px;
+    border-radius: 2px;
+    margin-top: 1px;
+}
+.content{
+    position: absolute;
+    right: 40px;
+    width: 75px;
+    height: 28px;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    background-color: grey;
+    margin-top: -2px;
+    border-radius: 2px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}

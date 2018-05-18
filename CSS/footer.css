@@ -1,0 +1,66 @@
+.footer{
+    margin-top: 30px;
+}
+.footer img{
+    margin-left: 250px;
+}
+.footer .hr{
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid lightgray;
+}
+.footer li{
+    list-style: none;
+}
+#footer{
+    padding-top: 20px;
+    width: 1400px;
+    height: 200px;
+}
+#footer ul{
+    font-family: "Microsoft YaHei UI";
+    padding: 0;
+    float: left;
+    width: 180px;
+}
+#footer strong{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: rgba(75,79,74,0.96);
+}
+#footer li{
+    color: gray;
+    font-size: 12px;
+    height: 23px;
+    line-height: 23px;
+}
+#footer li:hover{
+    cursor: pointer;
+    color: rgba(232,54,50,0.96);
+}
+#footer p{
+    font-family: "Microsoft YaHei UI";
+    font-size: 12px;
+    color: gray;
+}
+#footer .xiang:hover{
+    color: rgba(232,54,50,0.96);
+}
+.xiamian{
+    border-top: 1px solid lightgray;
+    clear: both;
+    text-align: center;
+    margin-left: 200px;
+    width: 1200px;
+}
+.xiamian p{
+    margin-top: 10px;
+}
+.xiamian span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.xiamian span:hover{
+    color: rgba(232,54,50,0.96);
+    cursor: pointer;
+}

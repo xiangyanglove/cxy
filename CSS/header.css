@@ -1,0 +1,156 @@
+html{overflow-x:scroll;white-space: nowrap}
+.body{
+    width: 1580px;
+    height: 9230px;
+    background-color: rgba(240,243,239,0.96);
+}
+.header{
+    position: absolute;
+    z-index: 3;
+    float: left;
+    width:1575px;
+    height: 30px;
+    background-color: rgba(223,226,222,0.96);
+    border-bottom: 1px solid lightgray;
+}
+.place{
+    width: 61px;
+    margin-left: 25%;
+}
+.header img{
+    width: 15px;
+    margin-left: 5px;
+}
+.header .location{
+    font-size: 12px;
+    border: 1px solid rgba(223,226,222,0.96);
+    border-bottom: 1px solid lightgray;
+    height: 30px;
+    line-height: 30px;
+    color: gray;
+    position: absolute;
+    top: 0;
+}
+.header #text{
+    font-size: 12px;
+    display: none;
+    position: absolute;
+    top: 30px;
+    width:300px;
+    height:90px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-top: none;
+}
+#text table{
+    margin-top: 10px;
+    height: 70px;
+    width: 98%;
+    margin-left: 1%;
+    text-align: center;
+    color: gray;
+}
+#text td:hover{
+    background-color: rgba(240,243,239,0.96);
+    color:red;
+}
+.list ul{
+    padding: 0;
+}
+.list li{
+    color: gray;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+.list li:hover{
+    color: red;
+}
+
+.list{
+    position: absolute;
+    top: 0;
+    right: 12.5%;
+}
+i{
+    color: gray;
+}
+.my{
+    border: 1px solid rgba(223,226,222,0.96);
+    border-bottom: 1px solid lightgray;
+    width: 70px;
+}
+.my .one{
+    width: 200px;
+    height: 90px;
+}
+.mytext{
+    padding-top: 2px;
+    color: gray;
+    margin-left: -1px;
+    margin-top: -1px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-top: none;
+}
+.mytext li:hover{
+    color: red;
+}
+.my .one li{
+    width: 85px;
+    text-align: left;
+}
+.my .two{
+    margin-left: -116px;
+    width: 185px;
+    height: 150px;
+}
+.my .two li{
+    width: 80px;
+    text-align: left;
+}
+.three{
+    margin-left: -1025px;
+    width: 1205px;
+    height: 200px;
+    z-index: 10;
+    position: absolute;
+}
+.three ul{
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+    height: 180px;
+    border-right: 1px solid lightgray;
+}
+.three ul li{
+    width: 25%;
+    text-align: left;
+}
+.phone{
+    width: 65px;
+
+}
+.phonetext{
+    position: absolute;
+    top: 30px;
+    width: 200px;
+    height: 270px;
+    background-color: white;
+    margin-left: -120px;
+    border: 1px solid lightgray;
+    border-top: none;
+}
+.phonetext li{
+    margin-top: 10px;
+    height: 80px;border-bottom: 1px solid lightgray;
+
+}
+.phonetext img{
+    width: 40%;
+    float: left
+}

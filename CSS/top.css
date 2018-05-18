@@ -1,0 +1,23 @@
+#top{
+    width:1575px;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    z-index: 200;
+    display: none;
+    border-bottom: 2px solid rgba(232,54,50,0.96);
+}
+#top input{
+    outline:none;
+    float: left;
+    width: 500px;
+    height: 35px;
+    background-color: #efefef;
+    border: 0;
+}
+#cha{
+    float: left;
+    width: 45px;
+    height: 35px;
+    background-color: rgba(232,54,50,0.96);
+}

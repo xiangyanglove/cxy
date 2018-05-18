@@ -1,0 +1,139 @@
+.second{
+    width: 1300px;height: 450px;margin-left: 205px;margin-top: 20px;
+}
+.mi{
+    width: 390px;
+    height: 450px;
+    background: white;
+    float: left;
+    position: relative;
+}
+.mi h3{
+    font-family: "Microsoft YaHei UI";
+    height: 30px;
+    margin-left: 20px;
+}
+.mi h3 span{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: gray;
+}
+*{margin: 0;padding:0; }
+.mi ul{list-style: none;}
+.bannertwo{width: 350px;height: 380px;margin: auto;position: relative;overflow: hidden;}
+.imgtwo{position: absolute;top: 0;left: 0}
+.imgtwo img{
+    width: 350px;
+    height: 250px;
+}
+.imgtwo li{float: left;}
+.numtwo{position: absolute;bottom: -10px;width: 100%;text-align: center;font-size: 0;}
+.numtwo li{width: 12px;height: 12px;background:white;border: 2px solid gray;display: block;border-radius: 100%;display: inline-block;margin: 0 5px;cursor: pointer;}
+.btntwo .prevtwo:hover{background-color: gray}
+.btntwo .nexttwo:hover{background-color: gray}
+.btntwo span{display: block;background-color: lightgray;width: 20px;height: 40px;color: #fff;font-size: 20px;line-height: 40px;text-align: center;cursor:pointer;}
+.btntwo .prevtwo{position: absolute;left: 0;top: 50%;margin-top: -30px;}
+.btntwo .nexttwo{position: absolute;right: 0;top: 50%;margin-top: -30px;}
+.numtwo .active{background-color: gray;}
+.mitext{width: 350px;height:105px;overflow: hidden;text-overflow:ellipsis;border-bottom: 1px solid lightgray}
+.mitext h3{font-size: 18px;margin-left: 0;text-align: center}
+.mitext p{
+    font-size: 14px;
+    color: gray;
+    font-family: "Microsoft YaHei UI";
+}
+/*发现好货*/
+.find{
+    width: 390px;
+    height: 450px;
+    background: white;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+}
+.find h3{
+    font-family: "Microsoft YaHei UI";
+    height: 30px;
+    margin-left: 20px;
+}
+.find h3 span{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: gray;
+}
+.findbox{
+    width: 390px;
+    height: 376px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+}
+.findbox li{
+    position: relative;
+    list-style: none;
+    float: left;
+    width: 110px;
+    height: 125px;
+    text-align: center;
+
+}
+.findbox ul{
+    padding: 10px;
+    margin-left: 15px;
+    width: 360px;
+    height: 375px;
+}
+.findbox ul li img{
+    width: 70px;
+    height: 70px;
+}
+.findbox ul li p{
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #333;
+    font-family: "Microsoft YaHei UI";
+}
+.findmask{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    background-color:rgba(255,255,255,0.26);
+}
+.guang{
+    width: 390px;
+    height: 450px;
+    background: white;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+.guang h3{
+    font-family: "Microsoft YaHei UI";
+    height: 30px;
+    margin-left: 20px;
+}
+.guang h3 span{
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    color: gray;
+}
+.guang ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin-top: 15px;
+}
+.guangmask{
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 110px;
+    background-color: rgba(255,255,255,0.26);
+}

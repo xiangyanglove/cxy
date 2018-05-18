@@ -1,0 +1,50 @@
+.leave{
+    width: 1200px;height: 1260px;margin-left: 205px;margin-top: 40px;
+}
+.leave ul{
+    padding: 0;
+}
+.leave ul li{
+    margin-top: 10px;
+    font-family: "Microsoft YaHei UI";
+    position: relative;
+    width: 230px;
+    height: 305px;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+.leave li p{
+    text-align: center;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.leave li img{
+    margin-top: 30px;
+}
+.leavemask{
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 305px;
+    position: absolute;
+    opacity:0;
+    background-color: rgba(255,255,255,0.26);
+}
+.similar{
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    opacity: 0;
+    margin: auto;
+    margin-top: 220px;
+    color: white;
+    line-height: 70px;
+    font-family: "Microsoft YaHei UI";
+}
+.leavemask:hover{
+    opacity:1;
+    filter: alpha(opacity=0);
+}
